@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.background{
+  background-image: url("/background_Image.png");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.45);
+  z-index: -1;
+}
+.shadowtext {
+  text-shadow: 1px 1px 7px rgb(15, 14, 14);
+}
+.shadowtextgreen {
+  text-shadow: 2px 4px 6px rgb(62, 235, 9);
+}
+.shadowtext-bold {
+  text-shadow: 1px 2px 10px rgb(96, 94, 94);
+}
+.shadowtext-bold-blue {
+  text-shadow: 1px 2px 4px rgb(45, 47, 47);
+}
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.no-spinner {
+  -moz-appearance: textfield; 
+}
